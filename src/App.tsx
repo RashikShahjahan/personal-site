@@ -1,10 +1,14 @@
 import './App.css'
-import About from './components/About.tsx'
+import About from './About.tsx'
+import Links from './Links.tsx'
 function App() {
 
   return (
-    <About/>
-     
+    <div   className='.all'>
+      <About/>
+      <Links/>
+    </div>
+    
   )
 }
 
